@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+   
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="card">
+            <div class="card-header">Todo List</div>
+            <div class="card-body">
+                <form id="addTodoİnput">
+                    <input id="inputname" type="text" class="form-control" placeholder="Enter a Todo">
+                </form>
+                <button class="btn btn-danger mt-3" type="button" id="newAddTodo">Add Todo</button>
+            
+            <hr>
+
+                <div id="alert1" class="alert alert-success alert-dismissible fade show">    
+                Added new Todo to UI
+                </div> 
+                
+                <div id="alert1" class="alert alert-success alert-dismissible fade show">    
+                Todo deleted succesfully
+                </div> 
+            <hr>
+                 <h6>Todos</h6>  
+                 <form id="addTodoİnput">
+                    <input id="inputsearch" type="search" class="form-control mt-3" placeholder="Search a Todo">
+                </form>
+            <hr>
+                <ul id="todoList" class="list-group">
+                                       
+                </ul>
+
+            <hr>
+
+            <button class="btn btn-secondary mt-3" type="button" id="deleteTodoAll">Clean All Tasks</button>
+
+            </div>
+            
+            
+        </div>
+
+
+
+    </div>
+    
+
+
+
+
+
+    <script src="todo.js"></script>
+</body>
+</html>
